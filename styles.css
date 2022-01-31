@@ -1,0 +1,44 @@
+#container{
+    display: flex;
+}
+
+#left{
+    width: 400px;
+}
+
+#right{
+    width: 400px;
+}
+
+#Address_Container{
+    display: flex;
+}
+
+#vertical_image > img{
+    height: 200px;
+}
+
+#the_address>p{
+    width: 100px;
+}
+
+#street_name_container{
+    display:flex;
+}   
+
+#street_number_container{
+    display:flex;
+}
+
+#city_container{   
+    display:flex;
+}
+
+#country_container{   
+    display:flex;
+}
+
+#effective_address>div>div{
+    width: 100px;
+    padding-left: 50px;
+}

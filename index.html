@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX-WEEK9-HOMEWORK</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <h1>Add New Contact</h1>
+            <div>
+                First Name : <input placeholder="first_name" id='first_name'/> <br><br>
+                Last Name : <input placeholder='last_name' id='last_name'/> <br><br>
+                Mobile Number <input placeholder='mobile_number' id='mobile_number'/> <br><br>
+                <span>______________________________________________________</span><br>
+
+                <div id="Address_Container">
+                    <div id="the_address"> <p>Address</p> </div>
+
+                    <div id="vertical_image"><img src="./Vertical_Line.png" alt=""></div>
+
+                    <div id="effective_address"> <br>
+                        <div id="street_name_container">
+                            <div id="street_name">Street : </div> 
+                            <input type="text" id="street_name_value">
+                        </div><br>
+                        
+                        <div id="street_number_container">
+                            <div id="street_number">Number : </div> 
+                            <input type="text" id="street_number_value">
+                        </div><br>
+
+                        <div id="city_container">
+                            <div id="city_name">City : </div> 
+                            <input type="text" id="city_value">
+                        </div><br>
+
+                        <div id="country_container">
+                            <div id="country_name">Country : </div> 
+                            <input type="text" id="country_value">
+                        </div><br>
+
+                    
+                    </div>
+                </div>
+                <button id='send'>Send</button>
+            </div>
+        </div>
+            <div id="right">
+                <h1>Contact List</h1>
+                <ol id='entries'>
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+    <script src='./js.js'></script>
+</body>
+</html>
